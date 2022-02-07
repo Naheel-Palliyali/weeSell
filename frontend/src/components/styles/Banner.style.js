@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const StyledBanner = styled.div`
   width: 100%;
-  height: 50vh;
+  height: 50%;
   background-color: #f9c00e;
-  border-radius: 72px;
+  border-radius: 64px;
 
   position: absolute;
   z-index: -10;
@@ -25,14 +25,13 @@ export const StyledBanner = styled.div`
   &::before {
     content: 'O';
     font-size: 50em;
-    color: orange;
     position: absolute;
     top: -140%;
     left: 50%;
     transform: translate(-50%);
 
     color: transparent;
-    text-shadow: 0 0 100px rgba(240, 140, 40, 0.5);
+    text-shadow: 0 0 100px rgba(240, 140, 40, 0.3);
   }
   &::after {
     content: 'O';
@@ -44,6 +43,6 @@ export const StyledBanner = styled.div`
     transform: translate(-50%);
 
     color: transparent;
-    text-shadow: 0 0 100px rgba(240, 140, 40, 0.5);
+    text-shadow: 0 0 100px rgba(240, 140, 40, 0.3);
   }
 `

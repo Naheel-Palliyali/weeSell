@@ -16,6 +16,10 @@ const GlobalStyle = createGlobalStyle`
       font-weight: 900;
     }
 
+    h1, h2,h3,h4,h5,h6,p {
+      margin: 0;
+    }
+    
     @media screen and (max-width: 768px) {
       margin: 0;
     }

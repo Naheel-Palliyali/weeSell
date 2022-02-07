@@ -16,7 +16,11 @@ export const Button = styled.button`
   border: none;
   border-radius: 50%;
   outline: ${(props) =>
-    props.small ? '2px solid rgba(0,0,0,0.1)' : '4px solid white'};
+    props.small ? '1px solid rgba(255,255,255,1)' : '4px solid white'};
+  box-shadow: ${(props) =>
+    props.small
+      ? '0px 4px 4px 0px rgba(245,170,25,0.2)'
+      : '0px 4px 12px 0px #f9c00e'};
   outline-offset: -1px;
 
   font: inherit;
@@ -48,5 +52,6 @@ export const Button = styled.button`
 
   &:active {
     box-shadow: ${(props) => (props.small ? null : '0px 4px 12px 0px #f9c00e')};
+    transform: scale(0.95);
   }
 `
