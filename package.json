@@ -1,0 +1,25 @@
+{
+  "name": "weesell",
+  "version": "1.0.0",
+  "description": "funky ecommerce website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naheel-Palliyali/weeSell.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "shop",
+    "buy"
+  ],
+  "author": "Naheel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naheel-Palliyali/weeSell/issues"
+  },
+  "homepage": "https://github.com/Naheel-Palliyali/weeSell#readme"
+}
